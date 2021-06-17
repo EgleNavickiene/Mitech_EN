@@ -1,0 +1,96 @@
+
+
+.header-area {
+    background: white;
+}
+
+.infotechno-bg {  
+    /* position: relative; */
+    background-color: rgb(236, 227, 215); 
+}
+
+/* .info-techno-hero-image {
+    
+} */
+
+.infotechno-inner-two .hero-img {  
+    position: absolute;
+    top:0;
+    z-index: 100;
+}
+
+.info-techno-hero-text {
+    padding: 0 20pt;
+    margin-right: 30px;
+}
+
+.blue-heading {
+    margin-bottom: 25px;
+}
+
+.info-techno-hero-text h1 {
+    font-size: 4rem;
+}
+
+.ht-btn {
+    background: #0d6efd;
+    padding: 10pt 25pt;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1pt;
+    color: white;
+    border-radius: 10px;
+}
+
+.ht-btn:hover {
+    color: rgb(245, 216, 179);
+}
+
+.section-space_ptb-60 {
+    padding-top: 60pt;
+    padding-bottom: 60pt;
+}
+
+.logo-blue {
+    display: none;
+    margin: 0 auto;
+}
+
+.logo-cell-link:hover .logo-grey  {
+    display: none; 
+}
+
+.logo-cell-link:hover .logo-blue {
+    display: flex;
+}
+
+.logo-grey {
+    margin: 0 auto;
+}
+
+.our-services-area {
+    background: rgba(211, 211, 211, 0.5);
+}
+
+.section-sub-title {
+    text-transform: uppercase;
+}
+
+.section-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.image-box-wrap {
+    background: white;
+    padding: 40px 20px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.box-image {
+    margin-bottom: 2rem;
+}
+
+.content-heading, .content-text {
+    margin-bottom: 1.5rem;
+}
