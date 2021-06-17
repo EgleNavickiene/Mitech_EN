@@ -5,18 +5,17 @@
 }
 
 .infotechno-bg {  
-    /* position: relative; */
     background-color: rgb(236, 227, 215); 
 }
 
-/* .info-techno-hero-image {
-    
-} */
-
-.infotechno-inner-two .hero-img {  
+.infotechno-img-one {
     position: absolute;
-    top:0;
-    z-index: 100;
+    padding-top: 10px;
+}
+  
+.infotechno-img-two {
+    position: relative;
+    z-index: 2;
 }
 
 .info-techno-hero-text {
@@ -26,10 +25,11 @@
 
 .blue-heading {
     margin-bottom: 25px;
+    margin-top: 15px;
 }
 
 .info-techno-hero-text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .ht-btn {
@@ -37,6 +37,7 @@
     padding: 10pt 25pt;
     text-decoration: none;
     font-weight: 500;
+    font-size: 16pt;
     letter-spacing: 1pt;
     color: white;
     border-radius: 10px;
@@ -74,11 +75,12 @@
 
 .section-sub-title {
     text-transform: uppercase;
+    color: gray;
 }
 
 .section-heading {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .image-box-wrap {
@@ -93,4 +95,22 @@
 
 .content-heading, .content-text {
     margin-bottom: 1.5rem;
+}
+
+.arrow-anchor {
+    height: 20px;
+    position: relative;
+}
+
+.circle-arrow:hover  {    
+    color: blue;
+}
+
+.arrow-link {
+    text-decoration: none;
+    color: rgb(219, 189, 150);
+}
+
+.section-under-heading {
+    margin-top: 60pt;
 }
