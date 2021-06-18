@@ -75,6 +75,7 @@
 
 .section-sub-title {
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: gray;
 }
 
@@ -114,3 +115,15 @@
 .section-under-heading {
     margin-top: 60pt;
 }
+
+.list-numb-link {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+/* .list-numbered-arrow {
+    font-size: 40px;
+    font-weight: 700;
+} */
