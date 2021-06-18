@@ -8,7 +8,6 @@
     width: 45%;
 }
 
-
 .form-img-part img {
     width: 80%;
 }
@@ -22,13 +21,14 @@
     background: blue;
 }
 
+
+/* --------------- */
 @media (max-width: 575.98px) {
     .form-img-part img {
         position: absolute;
         top: 20%;
         right: 3%;
         opacity: 0.3;
-
         width:40%;
         padding: 0;
     } 
