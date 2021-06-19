@@ -2,9 +2,6 @@ body {
     background: rgb(240, 239, 230);
   }
   
-  
-  
-  
   .slick-slider {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -13,12 +10,18 @@ body {
   .slick-slider img {
     height: 100%;
     padding: 20px;
-    margin: 0t auto;
+    margin: 0pt auto;
   }
 
-  .slick-item-wrapper {
-      display:block;
-      vertical-align: middle;
+  .slick-slide {
+    height: 150px;
+  }
+
+  .my-slide {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   
