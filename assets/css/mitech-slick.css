@@ -11,7 +11,6 @@ body {
   }
   
   .slick-slider img {
-    height: 100%;
     padding: 20px;
     margin: 0t auto;
   }
@@ -21,6 +20,18 @@ body {
       vertical-align: middle;
   }
   
+
+  .slick-slide {
+    height: 150px;
+    background:red;
+  }
+
+  .my-slide {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
 
 
