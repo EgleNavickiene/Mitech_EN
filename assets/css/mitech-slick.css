@@ -1,0 +1,31 @@
+body {
+    background: rgb(240, 239, 230);
+  }
+  
+  
+  
+  
+  .slick-slider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .slick-slider img {
+    height: 100%;
+    padding: 20px;
+    margin: 0t auto;
+  }
+
+  .slick-item-wrapper {
+      display:block;
+      vertical-align: middle;
+  }
+  
+  
+
+
+  /* slider-io rodykles cia */
+  .slick-prev:before, 
+  .slick-next:before {
+      color: black;
+  }
