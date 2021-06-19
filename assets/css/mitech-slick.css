@@ -1,6 +1,6 @@
-body {
+/* body {
     background: rgb(240, 239, 230);
-  }
+  } */
   
   .slick-slider {
     margin-top: 50px;
@@ -27,7 +27,7 @@ body {
   
 
 
-  /* slider-io rodykles cia */
+  /*Slick slider-io rodykles cia */
   .slick-prev:before, 
   .slick-next:before {
       color: black;

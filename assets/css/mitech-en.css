@@ -33,7 +33,7 @@
 }
 
 .ht-btn {
-    background: #0d6efd;
+    background: #0a58ca;
     padding: 10pt 25pt;
     text-decoration: none;
     font-weight: 500;
@@ -47,41 +47,46 @@
     color: rgb(245, 216, 179);
 }
 
+.gray-bacground-area {
+    background: rgba(211, 211, 211, 0.356);
+}
+
 .section-space_ptb-60 {
     padding-top: 60pt;
     padding-bottom: 60pt;
 }
 
 .logo-blue {
-    display: none;
+    filter: grayscale(100%);
+    opacity: 0.3;
     margin: 0 auto;
 }
 
-.logo-cell-link:hover .logo-grey  {
-    display: none; 
+.logo-blue:hover {
+    filter: none;
+    opacity: 100%;
 }
 
-.logo-cell-link:hover .logo-blue {
-    display: flex;
+.info-techno-background-area {
+    background-image: url(../img/mitech-home-infotechno-section-company-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.logo-grey {
-    margin: 0 auto;
-}
-
-.our-services-area {
+/* .our-services-area {
     background: rgba(211, 211, 211, 0.5);
-}
+} */
 
 .section-sub-title {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: gray;
+    margin-bottom: 1rem;
 }
 
 .section-heading {
     font-size: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .image-box-wrap {
@@ -104,7 +109,7 @@
 }
 
 .circle-arrow:hover  {    
-    color: blue;
+    color: #0a58ca;
 }
 
 .arrow-link {
@@ -116,6 +121,18 @@
     margin-top: 60pt;
 }
 
+.adv-list-item {
+    padding-top: 30px;
+    border-bottom: lightgray 1px solid;
+}
+
+.list-number {
+    font-size: 30px;
+    font-weight: 700;
+    color: lightgray;
+    padding-bottom: 40px;
+}
+
 .list-numb-link {
     text-decoration: none;
     font-size: 24px;
@@ -123,7 +140,6 @@
     color: black;
 }
 
-/* .list-numbered-arrow {
-    font-size: 40px;
-    font-weight: 700;
-} */
+.list-numb-link:hover .list-number{
+    color: #0a58ca;
+}
