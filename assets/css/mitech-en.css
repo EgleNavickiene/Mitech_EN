@@ -4,6 +4,12 @@
     background: white;
 }
 
+.company-logo-header img {
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .infotechno-bg {  
     background-color: rgb(236, 227, 215); 
 }
