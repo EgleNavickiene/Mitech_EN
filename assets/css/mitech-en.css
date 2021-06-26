@@ -109,7 +109,38 @@
     margin-bottom: 1.5rem;
 }
 
-.arrow-anchor {
+.animated-arrow {
+    background-color: #d2a98e;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Absolutaus elemento centravimas parent elemente */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -30px;
+    transition: all 3000ms linear;
+}
+
+.animated-arrow:hover {
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    transform: scale(2);
+}
+
+i {
+  color: white;
+  font-size: 26px;
+}
+   
+
+/* .arrow-anchor {
     height: 20px;
     position: relative;
 }
@@ -121,7 +152,9 @@
 .arrow-link {
     text-decoration: none;
     color: rgb(219, 189, 150);
-}
+} */
+
+
 
 .section-under-heading {
     margin-top: 60pt;

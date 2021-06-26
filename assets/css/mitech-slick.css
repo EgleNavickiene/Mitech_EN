@@ -1,6 +1,10 @@
-/* body {
-    background: rgb(240, 239, 230);
-  } */
+
+   /*Slick slider-io rodykles cia */
+   .slick-prev:before, 
+   .slick-next:before {
+       color: black;
+   }
+   /* -- */
   
   .slick-slider {
     margin-top: 50px;
@@ -24,11 +28,7 @@
     justify-content: center;
   }
   
-  
 
 
-  /*Slick slider-io rodykles cia */
-  .slick-prev:before, 
-  .slick-next:before {
-      color: black;
-  }
+
+ 
